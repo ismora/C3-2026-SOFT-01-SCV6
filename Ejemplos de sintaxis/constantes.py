@@ -13,3 +13,4 @@ precioProducto = float(input("Ingrese el precio del producto: "))
 totalImpuestos = precioProducto * IVA_CR
 
 print("Debe pagar:", totalImpuestos, "de impuestos")
+
