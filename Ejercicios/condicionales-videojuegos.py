@@ -6,11 +6,11 @@ Precios establecidos:
 Edición estándar: ₡25 000.
 Edición deluxe: ₡35 000.
 Edición coleccionista: ₡50 000.
-El programa debe solicitar:
 
-Tipo de edición.
-Cantidad de videojuegos.
-Si el cliente es estudiante.
+El programa debe solicitar:
+    - Tipo de edición.
+    - Cantidad de videojuegos.
+    - Si el cliente es estudiante.
 
 Utilice las siguientes reglas:
     - Si el cliente compra 3 videojuegos o más, recibe un 10 % de descuento.
@@ -55,4 +55,4 @@ else:
 
 # Total
 total = precio_despues_cantidad - descuento_estudiante
-
+print("Total:", total)
